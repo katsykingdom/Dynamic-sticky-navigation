@@ -3,9 +3,9 @@ This project is a sticky navigation that has links to different sections of the 
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Description](#description)
 
-## Instructions
+## Description
 
 Javascript:
 1. Dinamically build the navigation based on h2 section titles
