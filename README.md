@@ -1,4 +1,4 @@
-# Landing Page Project
+# Landing Page Project - Dynamic Sticky Navigation
 This project is a sticky navigation that has links to different sections of the landing page and reacts to the window scroll position.
 
 ## Table of Contents
