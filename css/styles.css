@@ -67,11 +67,20 @@ section {
 .navbar__menu ul {
     padding-left: 0;
     margin: 0;
-    text-align: right;
+    text-align: left;
+    display: none;
 }
 
 .navbar__menu li {
     display: inline-block;
+    font-size: 1.2em;
+    color: #000;
+    padding: 20px;
+}
+
+.navbar__menu li a {
+    text-decoration: none;
+    color: rgba(0,13,60,1);
 }
 
 .navbar__menu .menu__link {
@@ -88,9 +97,17 @@ section {
     transition: ease 0.3s all;
 }
 
+.navbar__menu .menu__link:active {
+    color: red;
+}
+
+.active-class {
+    background: rgba(136,203,171,1);
+}
+
 /* Header Styles */
 .page__header {
-    background: #fff;
+    background: rgba(255,255,255,0.8);
     position: fixed;
     top: 0;
     width: 100%;
